@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+}
+
+header {
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+        border-bottom-color: #1293D4;
+        border-bottom-width: 7px;
+        border-style: solid;
+        height: 120px;
+
+}
+.h1Inicio{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    gap: 10px;
+}
+.span1{
+    color:rgb(74, 161, 243);
+}
+.A1nav{
+    color: rgb(68, 187, 255);
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+}
+ul li{
+    display: flex;
+    list-style: none;
+    
+   }
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+/* ---------------- */
+
+.datos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    height: 100px;
+}
+
+
+.correo {
+    width: 200px;
+    height: 27px;
+    font-size: 15px;
+}
+
+.boton {
+    width: 200px;
+    height: 35px;
+    background-color:#f74914;
+    font-size:15px;
+    color: #fff;
+}
+
+/* ------------- */
+
+.nombre{
+    font-size: 15px;
+    height: 20px;
+    width: 600px;
+    margin-top: 2px;
+
+}
+.Email{
+    font-size: 15px;
+    height: 20px;
+    width: 600px;
+    margin-top: 2px;
+}
+.Telefono{
+    font-size: 15px;
+    height: 20px;
+    width: 600px;
+}
+.Celular{
+    font-size: 15px;
+    height: 20px;
+    width: 600px;
+}
+.Mensaje{
+    font-size: 15px;
+    height: 150px;
+    width: 600px;
+}
+.botonEnviar{
+    background-color: #f05034;
+    width: 600px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    border:none
+
+}
+.h3Formulario{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    color: #504f4f;
+
+}
+
+
+.h2Aside{
+    font-size: 20px;
+}
+
+
+.contacto{
+    width: 800px;
+    height: 600px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 75vh; 
+    width: 1350px;
+}
+.side-aside {
+    width: 280px; 
+    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #38424d;
+    border-left: 1px solid #ccc;
+    color: #fff;
+}
+
+.imgAside{
+   height: 240px;
+   width: 320PX;
+   margin-top: 10PX;
+}
+
+.footer {
+    display: flex;
+    background-color: #1293D4;
+    width: 1500px;
+    height: 90px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+

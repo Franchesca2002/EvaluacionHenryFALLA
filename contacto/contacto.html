@@ -3,67 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
-
+    <title>CONTACTOS</title>
     <link rel="stylesheet" href="/contacto/contacto.css">
-    
 </head>
 <body>
-    <main>
-        <header>
-            <div class="botones">
-                <div class="logo">Diseño <span>Multimedia</span>><div>
-         <nav class="">
-            <a href="/inicio/inicio.html">INICIO</a>
-            <a href="/nosotros/nosotros.html">NOSOTROS</a>
-            <a href="/servicios/servicios.html">SERVICIOS</a>
-            <a href="/contacto/contacto.html">CONTACTO</a>
-         </nav>
-         </div>
-         <form action="#" method="post">
-            <h2>Suscribete a nuestro boletín</h2>
-            <input type="email" id="email" name="email" placeholder="Ingrese el Email..."><br><br>
-            <input type="submit" value="Suscribirse">
-        </form>
-        <header>
-            <nav>
-                <div class="container">
-                    <div class="item"></div>
-                </div>
-            </nav>
-        </header>
-	<form>
-		<h3>Contacto</h3>
-		
-		<label for="nombre">Nombre: </label>
-        <br>
-        <input type="text" id="nombre" placeholder="Ingresa tu nombre" required><br>
-	
-		<label for="email">Correo electronico: </label>
-        <br>
-		<input type="email" name="email" placeholder="Ingresa tu email" required><br>
-		
-        <label for="tel">Telefono: </label>
-        <br>
-		<input type="tel" name="telefono" id="tel" placeholder="Ingresa tu telefono"><br>
-        
-        <label for="cel">Celular: </label>
-        <br>
-		<input type="cel" name="Celular" id="cel" placeholder="Ingresa tu Celular"><br>
-    
-		<label>Escriba su mensaje:</label><br>
-		<textarea rows="2" cols="50"></textarea><br>
+    <header class="hearder">
+        <div class="divh1">
+        <h1 class="h1Inicio"> Diseño <span class="span1"> Multimedia </span></h1>
+    </div>
+    <div class="classnav">
+     <nav class="nav1">
+        <ul >
+            <li><a href="../inicio/inicio.html">INICIO</a></li>
+            <li><a href="../nosotros/nosotros.html">NOSOTROS</a></li>
+            <li><a href="../servicios/servicios.html">SERVICIOS</a></li>
+            <li><a class="A1nav" href="#">CONTACTO</a></li>
+        </ul>
+     </nav> 
+    </div>
+    </header>
+    <!-- --------------------------- -->
 
-		<input type="submit" value="Enviar"> <!-- Permite crear un botón -->
-	</form>
-    <aside>
-        <div class="lado"><h3>Que hacemos</h3>
-        <p class="parrafolado">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius autor lacus nec feugiat. Phasellus sit amet ex ipsum. Prasent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+    <section class="datos">
+        <h3>Suscribete a nuestro boletin</h3>
+        <div>
+            <input class="correo" type="e-mail" placeholder="Ingrese su email...">
+            <input  class="boton" type="submit" value="Suscribete">
         </div>
-        <div class="map"><img src="/assets/mapaGoogle.png" alt="ubicacion"></div>
-    </aside>
-    <footer>
-        <div class="final">Graphel Desarrollo Web, Copyright © 2017</div>
-    </footer>
+    </section>
+    <!-- --------------------------- -->
+    <div class="container">
+<section class="sectionFormulario">
+    <h2 class="h2Section4">contacto</h2>
+    <div class="mensaje">
+        <h3 class="h3Formulario">Nombre</h3>
+    <input class="nombre" type="e-mail" placeholder="Ingrese su nombre">
+    </div>
+    <div>
+        <h3 class="h3Formulario">Email</h3>
+        <input class="Email" type="e-mail" placeholder="Ingrese su email">
+    </div>
+    <div>
+        <h3 class="h3Formulario">Teléfono</h3>
+        <input class="Telefono" type="e-mail" placeholder="Ingrese su teléfono">
+    </div>
+    <div>
+        <h3 class="h3Formulario">Celular</h3>
+        <input class="Celular" type="e-mail" placeholder="Ingrese su celular">
+    </div>
+    <div>
+        <h3 class="h3Formulario">Mensaje</h3>
+        <textarea class="Mensaje"></textarea>
+
+    </div>
+    <div>
+        <input class="botonEnviar" type="submit" value="Enviar">
+    </div>
+</section>
+    
+<div class="divconte1">
+<aside class="side-aside">
+    <h2 class="h2Aside"> Que hacemos </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum, Praesent pharetra tincidunt tempor, Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+</aside>
+
+<aside>
+    <img class="imgAside" src="/assets/mapaGoogle.png" alt="">
+</aside>
+    </div>
+        </div>
+
+        <footer class="footer">
+            <p class="pfooter"> Graphel Desarrollo Web,   copyright &COPY; 2024 </p>
+        </footer>
+    
 </body>
 </html>
