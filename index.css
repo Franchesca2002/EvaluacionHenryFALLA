@@ -56,7 +56,7 @@ a {
     color: #ffffff;
 }
 .sectionTextos{
-    background-image: url(/assets/cabecera1.jpg);
+    background-image: url(assets/cabecera1.jpg);
     height: 460px;
     width: 100%;
     display: flex;
